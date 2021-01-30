@@ -52,7 +52,12 @@
       h6 {
         margin: 0.3rem 0;
       }
+
+      @include mobile {
+        z-index: 2;
+      }
     }
+
   }
 
   .social-icons {

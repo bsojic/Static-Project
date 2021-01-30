@@ -19,3 +19,9 @@ $secondary-color: #ff652f;
   }
 }
 
+@mixin mobile {
+  @media screen and (max-width: 767px) {
+    @content;
+  }
+}
+
